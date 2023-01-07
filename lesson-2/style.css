@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.mainDiv {
+    background: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 10px;
+    padding: 10px;
+    width: 200px;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.div>p {
+    color: #958b8b;
+    padding-left: 8px;
+    border-left: 3px solid crimson;
+}
+.btn {
+    border: 1px solid black;
+    background: none;
+    min-height: 50px;
+    min-width: 100px;
+    border-radius: 8px;
+}
+.btn:hover {
+    background: aqua;
+}
+.btn:active {
+    background: lightcoral;
+}
